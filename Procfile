@@ -1,1 +1,1 @@
-web: gunicorn roast.wsgi --log-file -
+web: gunicorn djangoguestbook.wsgi --log-file -
