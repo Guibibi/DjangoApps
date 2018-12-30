@@ -21,4 +21,4 @@ def index(request):
     numbers_forhonor = soup.find('span', class_='num').get_text()
 
     content = {'numbers_forhonor' : numbers_forhonor, 'numbers_arma' : numbers_arma}
-    return render(request, '/roast/templates/roast/index.html', content)
+    return render(request, 'roast/index.html', content)
